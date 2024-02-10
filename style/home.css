@@ -96,6 +96,9 @@ a:hover{
     display: grid;
     grid-template-columns: 300px 300px 300px;
 }
+.general-content{
+    margin-top: -50px;
+}
 
 #general .header{
     font-weight: bold;
@@ -155,7 +158,7 @@ a:hover{
 .services-contain{
     border-right: 70px solid #2c4755;
     display: grid;
-    grid-template-columns: 350px 350px ;
+    grid-template-columns: 350px  350px ;
     grid-template-rows: 200px 200px;
 }
 .services-img{
@@ -315,4 +318,22 @@ a:hover{
 
 #contact i{
     margin: 5px;
+}
+
+.icon{
+    width: 40px;
+}
+
+.icon2{
+    margin-left: -400px;
+    display: inline-block;
+}
+
+#services .data-2{
+    margin-top: -70px;
+    margin-left: 10px;
+
+}
+#services .text{
+    display: inline-block
 }
